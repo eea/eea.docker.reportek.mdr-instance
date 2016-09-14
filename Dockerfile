@@ -1,11 +1,11 @@
-FROM eeacms/reportek-base-dr:1.0
+FROM eeacms/reportek-base-dr:1.1
 MAINTAINER "Olimpiu Rob" <olimpiu.rob@eaudeweb.ro>
 
 ENV REPORTEK_DEPLOYMENT=MDR
 
-COPY src/sources.cfg            $ZOPE_HOME/
-COPY src/mdr-instance.cfg       $ZOPE_HOME/
-COPY src/base.cfg               $ZOPE_HOME/
+COPY src/sources.cfg            \
+     src/mdr-instance.cfg       \
+     src/base.cfg               $ZOPE_HOME/
 
 USER root
 RUN ./install.sh
