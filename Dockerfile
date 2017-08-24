@@ -1,4 +1,4 @@
-FROM eeacms/reportek-base-dr:1.9.0
+FROM eeacms/reportek-base-dr:1.9.2
 MAINTAINER "Olimpiu Rob" <olimpiu.rob@eaudeweb.ro>
 
 ENV REPORTEK_DEPLOYMENT=MDR
