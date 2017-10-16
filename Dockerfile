@@ -1,5 +1,5 @@
-FROM eeacms/reportek-base-dr:1.9.6
-MAINTAINER "Olimpiu Rob" <olimpiu.rob@eaudeweb.ro>
+FROM eeacms/reportek-base-dr:1.9.7
+MAINTAINER "EEA: IDM2 C-TEAM" <eea-edw-c-team-alerts@googlegroups.com>
 
 ENV REPORTEK_DEPLOYMENT=MDR
 
