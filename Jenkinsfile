@@ -1,8 +1,8 @@
 pipeline {
   environment {
     template = "templates/mdr templates/mdrtest"  
-    GIT_NAME = "eea.docker.reportek.base-dr-instance"
-    dockerhubrepo = "eeacms/reportek-base-dr"
+    GIT_NAME = "eea.docker.reportek.mr-instance"
+    dockerhubrepo = "eeacms/reportek-mdr"
   }
 
   agent any
