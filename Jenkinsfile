@@ -1,10 +1,8 @@
 pipeline {
   environment {
-    registry = "eeacms/reportek-mdr"
-    template = "templates/mdr templates/mdrtest"
-    GIT_NAME = "eea.docker.reportek.mdr-instance"
-    dockerImage = ''
-    tagName = ''
+    template = "templates/mdr templates/mdrtest"  
+    GIT_NAME = "eea.docker.reportek.base-dr-instance"
+    dockerhubrepo = "eeacms/reportek-base-dr"
   }
 
   agent any
