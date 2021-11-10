@@ -1,7 +1,7 @@
 pipeline {
   environment {
     template = "templates/mdr templates/mdrtest"  
-    GIT_NAME = "eea.docker.reportek.mr-instance"
+    GIT_NAME = "eea.docker.reportek.mdr-instance"
     dockerhubrepo = "eeacms/reportek-mdr"
   }
 
