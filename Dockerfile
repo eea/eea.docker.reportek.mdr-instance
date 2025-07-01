@@ -1,4 +1,4 @@
-FROM eeacms/reportek-base-dr:2.47-110
+FROM eeacms/reportek-base-dr:2.47-111
 MAINTAINER "EEA: IDM2 C-TEAM" <eea-edw-c-team-alerts@googlegroups.com>
 
 ENV REPORTEK_DEPLOYMENT=MDR
